@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopEase</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ ShopEase</h1>
+    <div id="cart">
+      Cart 🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main class="product-container">
+    <div class="product">
+      <img src="https://fellmonger.in/cdn/shop/products/FMBE00423_1_46c098c0-bd5c-45b0-8834-38c27440d75c.jpg?v=1742464775" alt="Sneakers" />
+      <h2>Classic Sneakers</h2>
+      <p>$50</p>
+      <button onclick="addToCart(50)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://craftandglory.in/cdn/shop/files/SON000021.jpg?v=1711024390&width=1946" alt="Backpack" />
+      <h2>Leather Backpack</h2>
+      <p>$70</p>
+      <button onclick="addToCart(70)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61icsCcbdKL.jpg" alt="Smart Watch" />
+      <h2>Smart Watch</h2>
+      <p>$1500</p>
+      <button onclick="addToCart(120)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/711VnhCpK-L.jpg" alt="adjustable laptop stand" />
+      <h2>adjustable laptop stand</h2>
+      <p>$750</p>
+      <button onclick="addToCart(120)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images-cdn.ubuy.co.in/6614708510c6572f1b308f42-jbl-flip-6-portable-bluetooth-speaker.jpg" alt="JLB speaker" />
+      <h2>JLB speaker</h2>
+      <p>$1200</p>
+      <button onclick="addToCart(120)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/41lArSiD5hL.jpg" alt="sony wireless headphones" />
+      <h2>sony wireless headphones</h2>
+      <p>$1250</p>
+      <button onclick="addToCart(120)">Add to Cart</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Total: $<span id="total">0</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
